@@ -11,11 +11,17 @@ public class SpecificationEvaluator<TEntity> where TEntity : BaseEntity
     {
         var query = inputQuery;
             
+        if (spec.Includes != null)
+        {
+            query = spec.Includes.Aggregate(query, (current, include) => current.Include(include));
+        }
+
+        
         if (spec.Criteria != null)
         {
             query = query.Where(spec.Criteria);
         }
-
+       
         if (spec.OrderBy != null)
         {
             query = query.OrderBy(spec.OrderBy);
@@ -26,9 +32,9 @@ public class SpecificationEvaluator<TEntity> where TEntity : BaseEntity
             query = query.OrderByDescending(spec.OrderByDescending);
         }
 
-        if (spec.Includes != null)
+        if (spec.Take > 0)
         {
-            query = spec.Includes.Aggregate(query, (current, include) => current.Include(include));
+            query = query.Take(spec.Take);
         }
 
         return query;

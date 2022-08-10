@@ -1,6 +1,4 @@
-﻿using Library.Core.Entities;
-
-namespace Library.API.DTOs;
+﻿namespace Library.API.DTOs;
 
 public class BookDetailsDTO
 {

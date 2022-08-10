@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using FluentValidation;
 using Library.API.DTOs;
 using Library.Core.Entities;
 using Library.Core.Interfaces;
@@ -10,16 +9,14 @@ namespace Library.API.Controllers;
 
 public class BooksController : BaseApiController
 {
+    private readonly IGenericRepository<Book> _bookRepo;
     private readonly IConfiguration _config;
     private readonly IMapper _mapper;
-    private readonly IGenericRepository<Book> _bookRepo;
-    private readonly IValidator<Book> _validator;
 
-    public BooksController(IGenericRepository<Book> bookRepo, IValidator<Book> validator, IMapper mapper,
+    public BooksController(IGenericRepository<Book> bookRepo, IMapper mapper,
         IConfiguration config)
     {
         _bookRepo = bookRepo;
-        _validator = validator;
         _mapper = mapper;
         _config = config;
     }
@@ -30,15 +27,17 @@ public class BooksController : BaseApiController
     {
         var spec = new BooksByOrderSpec(specOrderParams);
         var books = await _bookRepo.ListAsync(spec);
+        if (!books.Any()) return NotFound();
         var bookDTOs = _mapper.Map<IReadOnlyList<Book?>, IReadOnlyList<BookOverviewDTO?>>(books);
         return Ok(bookDTOs);
     }
 
-    [HttpGet("[controller]/{Id}")]
-    public async Task<ActionResult<IReadOnlyList<BookOverviewDTO>>> GetBookById(int Id)
+    [HttpGet("[controller]/{id}")]
+    public async Task<ActionResult<IReadOnlyList<BookOverviewDTO>>> GetBookById(int id)
     {
-        var spec = new BookSpec(Id);
+        var spec = new BookSpec(id);
         var book = await _bookRepo.GetEntityWithSpecificationAsync(spec);
+        if (book == null) return NotFound();
         var bookDTO = _mapper.Map<Book?, BookDetailsDTO?>(book);
         return Ok(bookDTO);
     }
@@ -49,16 +48,17 @@ public class BooksController : BaseApiController
     {
         var spec = new BooksRecommendedByGenreSpec(genreParams);
         var books = await _bookRepo.ListAsync(spec);
+        if (!books.Any()) return NotFound();
         var bookDTOs = _mapper.Map<IReadOnlyList<Book?>, IReadOnlyList<BookOverviewDTO?>>(books);
         return Ok(bookDTOs);
     }
 
-    [HttpDelete("[controller]/{Id:int}")]
-    public async Task<ActionResult> DeleteBookById([FromQuery] string secret, int Id)
+    [HttpDelete("[controller]/{id:int}")]
+    public async Task<ActionResult> DeleteBookById([FromQuery] string secret, int id)
     {
         if (secret != _config["SecretKey"]) return Unauthorized();
-        var book = await _bookRepo.GetByIdAsync(Id);
-        if (book == null) return BadRequest();
+        var book = await _bookRepo.GetByIdAsync(id);
+        if (book == null) return NotFound();
         await _bookRepo.DeleteAsync(book);
         return Ok();
     }

@@ -16,11 +16,12 @@ public class RatingsController : BaseApiController
         _mapper = mapper;
         _repo = repo;
     }
-    [HttpPut("books/{Id:int}/rate")]
-    public async Task<ActionResult<OnlyIdResponseDTO>> BookReviewSave(int Id, RatingToInsertDTO ratingToInsertDTO)
+
+    [HttpPut("books/{id:int}/rate")]
+    public async Task<ActionResult<OnlyIdResponseDTO>> BookReviewSave(int id, RatingToInsertDTO ratingToInsertDTO)
     {
         var ratingToInsert = _mapper.Map<Rating>(ratingToInsertDTO);
-        ratingToInsert.BookId = Id;
+        ratingToInsert.BookId = id;
         var rating = await _repo.InsertAsync(ratingToInsert);
         return Ok(_mapper.Map<OnlyIdResponseDTO>(rating));
     }

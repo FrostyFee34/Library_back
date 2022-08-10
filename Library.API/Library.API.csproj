@@ -15,8 +15,6 @@
 
   <ItemGroup>
     <Folder Include="Helpers\" />
-    <Folder Include="Extensions\" />
-    <Folder Include="Middleware\" />
     <Folder Include="Validators\" />
   </ItemGroup>
 

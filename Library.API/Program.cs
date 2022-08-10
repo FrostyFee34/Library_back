@@ -1,21 +1,17 @@
-using AutoMapper;
 using FluentValidation;
 using FluentValidation.AspNetCore;
-using Library.API.DTOs;
 using Library.API.Helpers;
+using Library.API.Middleware;
 using Library.API.Validators;
 using Library.Core.Interfaces;
 using Library.Infrastructure.Data;
 using Microsoft.AspNetCore.HttpLogging;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddHttpLogging(options =>
 {
     options.LoggingFields = HttpLoggingFields.RequestMethod | HttpLoggingFields.RequestHeaders |
@@ -51,7 +47,6 @@ using (var scope = app.Services.CreateScope())
     }
 }
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -62,6 +57,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseHttpLogging();
+
+app.UseErrorHandlerMiddleware();
 
 app.UseAuthorization();
 

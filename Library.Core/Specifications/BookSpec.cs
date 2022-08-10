@@ -4,9 +4,9 @@ namespace Library.Core.Specifications;
 
 public class BookSpec : BaseSpecification<Book>
 {
-    public BookSpec(int Id): base(b=>b.Id == Id)
+    public BookSpec(int id) : base(b => b.Id == id)
     {
-        AddInclude(b=>b.Ratings);
-        AddInclude(b=>b.Reviews);
+        AddInclude(b => b.Ratings);
+        AddInclude(b => b.Reviews);
     }
 }

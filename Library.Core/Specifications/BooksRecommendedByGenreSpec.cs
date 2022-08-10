@@ -9,7 +9,7 @@ public class BooksRecommendedByGenreSpec : BaseSpecification<Book>
     {
         AddInclude(b => b.Reviews);
         AddInclude(b => b.Ratings);
-        AddOrderBy(b => b.Ratings.Sum(x => x.Score) / (double)b.Ratings.Count);
+        AddOrderByDescending(b => b.Ratings.Sum(x => x.Score) / (double)b.Ratings.Count);
         TakeNumberOf(10);
     }
 }

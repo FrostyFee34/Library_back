@@ -33,7 +33,7 @@ public class BooksController : BaseApiController
     }
 
     [HttpGet("[controller]/{id}")]
-    public async Task<ActionResult<IReadOnlyList<BookOverviewDTO>>> GetBookById(int id)
+    public async Task<ActionResult<IReadOnlyList<BookDetailsDTO>>> GetBookById(int id)
     {
         var spec = new BookSpec(id);
         var book = await _bookRepo.GetEntityWithSpecificationAsync(spec);

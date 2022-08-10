@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using FluentValidation;
 using Library.API.DTOs;
 using Library.Core.Entities;
 using Library.Core.Interfaces;
@@ -12,10 +13,13 @@ public class BooksController : BaseApiController
     private readonly IConfiguration _config;
     private readonly IMapper _mapper;
     private readonly IGenericRepository<Book> _bookRepo;
+    private readonly IValidator<Book> _validator;
 
-    public BooksController(IGenericRepository<Book> bookRepo, IMapper mapper, IConfiguration config)
+    public BooksController(IGenericRepository<Book> bookRepo, IValidator<Book> validator, IMapper mapper,
+        IConfiguration config)
     {
         _bookRepo = bookRepo;
+        _validator = validator;
         _mapper = mapper;
         _config = config;
     }
@@ -68,6 +72,4 @@ public class BooksController : BaseApiController
         else response = await _bookRepo.UpdateAsync(book);
         return Ok(_mapper.Map<Book, OnlyIdResponseDTO>(response));
     }
-
- 
 }

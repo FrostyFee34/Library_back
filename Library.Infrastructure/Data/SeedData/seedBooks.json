@@ -2,7 +2,7 @@
   {
     "Id": "1",
     "Title": "some title three",
-    "Cover": "TvBqDOBAyvX+4Zux1Pae6KytzU7huHE7hrma7AU2GZ1uDqMo4Ap6Fi+z+d+3qwAY/UtJ2+zp2CZUF9zwFGRh6LsOmKZMOAUWAVkukWF17hxTWvuwKV4JCD6frI0Py8fzUGzHPHFRTbE93y1c6ppTgP6cPd+fjVrBVGy72tiNKB3+1fnaSvQ1M973h2VrK/4t0+IjYA8G+0dd8XI7reKF07i2tttSlriKk74UZ1pNTvQKJx8N/HlCOn9qOpZoWk9vlhvwD2tN2yP6V6QJzyfb69csQA3FLxp8zL7SHTLa/EFUltmyppJ28PmLdgKI3uLz/c+Ci3fFOhuZR8ZfVjFgUOQcELjuSIEevu0RLIvLK+4NnUd5DhjYOsI=",
+    "Cover": "iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAABpklEQVR4nOzTL0olABRH4fnzmDRhpkx/eRiYIOgCFJNYrG7B+NprbsEqaLQIVrMWd6FRMRoExSWYLqd83wJ+Nxzu4v1q+WXSydnx6P75xe7o/vrhcHT/2+g6nxIgJkBMgJgAMQFiAsQEiAkQEyAmQEyAmAAxAWICxASICRATICZATICYADEBYgLEBIgJEBMgJkBMgJgAMQFiAsQW6+Xm6IG9/ZvR/bfVwej+99+/Rvd9QEyAmAAxAWICxASICRATICZATICYADEBYgLEBIgJEBMgJkBMgJgAMQFiAsQEiAkQEyAmQEyAmAAxAWICxASICRD7+vf+aPTA3dbG6P6/H39G92///xzd9wExAWICxASICRATICZATICYADEBYgLEBIgJEBMgJkBMgJgAMQFiAsQEiAkQEyAmQEyAmAAxAWICxASICRATICZAbLE6fRk9sLP9PLr/evk0uv94vR7d9wExAWICxASICRATICZATICYADEBYgLEBIgJEBMgJkBMgJgAMQFiAsQEiAkQEyAmQEyAmAAxAWICxASICRATICZA7CMAAP//vdgYOAs9w7IAAAAASUVORK5CYII=",
     "Content": "some contenttttttttttttttttttttttttttttttttt one",
     "Author": "Ricky Anselmi",
     "Genre": "else"
@@ -10,7 +10,7 @@
   {
     "Id": "2",
     "Title": "some title two",
-    "Cover": "GtjuzNFIkuJjPhJYjus4OK5PV/Ce0cyaEilDjNpGg4zNru25urmWH1dXHdYcItd9C+Zx/B+b6yY2L+AW7GQlbOBPEwlY77ZRL6zhKtqgAq/h2VqP",
+    "Cover": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAA2klEQVR4nOzRoWpCARhH8W1cBsuDhYU9w+JYW11YunUsTOH6HBYtCgr6AmYxCBYfwWbwFQxyLTYNPsM/HS+cX/5/4fAV5eP/XaL18xLtZ9Ux2n936mj/EK1vkAE0A2gG0AygGUAzgGYA7X4xeY0O3nr9aH/5eI/29eY32jf+AwbQDKAZQDOAZgDNAJoBtGL3WUUH++dVtN+W7Wg/evqK9o3/gAE0A2gG0AygGUAzgGYArRgOTtHBsnuO9vPpONof1n/RvvEfMIBmAM0AmgE0A2gG0AygXQMAAP//LCMZZrVbv2cAAAAASUVORK5CYII=",
     "Content": "some contentttttttttttttttttttttttttt two",
     "Author": "Marinna Nadia",
     "Genre": "detective"
@@ -18,7 +18,7 @@
   {
     "Id": "3",
     "Title": "some title one",
-    "Cover": "Rizo5LvAbLbucAic0cwMy5w+XNx4Ba+lR3QK3A26zIywUSj6honvKGZQ/voocbpRS5MwiFna1GJlLS4EeaqIM450KjZyzBr+sY/=",
+    "Cover": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAA2klEQVR4nOzRoWpCARhH8W1cBsuDhYU9w+JYW11YunUsTOH6HBYtCgr6AmYxCBYfwWbwFQxyLTYNPsM/HS+cX/5/4fAV5eP/XaL18xLtZ9Ux2n936mj/EK1vkAE0A2gG0AygGUAzgGYA7X4xeY0O3nr9aH/5eI/29eY32jf+AwbQDKAZQDOAZgDNAJoBtGL3WUUH++dVtN+W7Wg/evqK9o3/gAE0A2gG0AygGUAzgGYArRgOTtHBsnuO9vPpONof1n/RvvEfMIBmAM0AmgE0A2gG0AygXQMAAP//LCMZZrVbv2cAAAAASUVORK5CYII=",
     "Content": "some contenttttttttttttt three",
     "Author": "Zsa Zsa Kevon",
     "Genre": "horror"
@@ -26,7 +26,7 @@
   {
     "Id": "4",
     "Title": "some title two",
-    "Cover": "IzZB8++kHhCS6Le7tY9k/iuhbyAVkFmLSKEJgNGyIr3/w1KSXJ6AajjGSy3h/WixKUjFhxCBqvkJZKn2xDTDpxYt77ehuD5sfABzY5s0jFQpWTVal1KgyucoGijE8Id8en/hLzbERdfLFPX+kzNmFtFr7dz2VP7OeeC97XaEYBK0kVzehaR1esn=",
+    "Cover": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAA2klEQVR4nOzRoWpCARhH8W1cBsuDhYU9w+JYW11YunUsTOH6HBYtCgr6AmYxCBYfwWbwFQxyLTYNPsM/HS+cX/5/4fAV5eP/XaL18xLtZ9Ux2n936mj/EK1vkAE0A2gG0AygGUAzgGYA7X4xeY0O3nr9aH/5eI/29eY32jf+AwbQDKAZQDOAZgDNAJoBtGL3WUUH++dVtN+W7Wg/evqK9o3/gAE0A2gG0AygGUAzgGYArRgOTtHBsnuO9vPpONof1n/RvvEfMIBmAM0AmgE0A2gG0AygXQMAAP//LCMZZrVbv2cAAAAASUVORK5CYII=",
     "Content": "some contentttttttttttttttttttttttttt two",
     "Author": "Winifred Paine",
     "Genre": "detective"
@@ -34,7 +34,7 @@
   {
     "Id": "5",
     "Title": "some title three",
-    "Cover": "2oCMuuN9XrgXI/qi0TG12laGSFJ6MVyasvQwQIqzonQYU6VPmBOBmwyWDNB7x28iAtWx0ge3jovjQppkts8qTh6sDJYl0s0d0p5lTiox",
+    "Cover": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAA2ElEQVR4nOzXMWoCURhF4TC8Kl0Wky7bCClCIKTNCtKEkGZwE3Zi4QJcgIKChViNO1BEkKnUYsA13Oo4cL76vuLwV6+0v68Pid1oHO0v9U+0P2zn0b6K1nfIAJoBNANoBtAMoBlAM4BWZl8v0YN1nf0f3q7P0X71uY/2vb+AATQDaAbQDKAZQDOAZgCtbKpT9GDyt4j2zfIx2h+HH9G+9xcwgGYAzQCaATQDaAbQDKCV7v87e3Buo/17N432zdMg2vf+AgbQDKAZQDOAZgDNAJoBtFsAAAD//+J2HjzkvjKhAAAAAElFTkSuQmCC",
     "Content": "some contentttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt two",
     "Author": "Mahalia Nea",
     "Genre": "detective"
@@ -42,7 +42,7 @@
   {
     "Id": "6",
     "Title": "some title two",
-    "Cover": "/PDGZntFuLSsPegXZZYR6hZftAdqVz9B+14FIMfufqClEHPIXHMRGZtEwL1w/SHzh2hDSvHRf2XFI5METItZQgKajhspcFNbB5DrNMeAZGXEt/0bt2ctpfU43sVVGckiGdReFHO668i9vw2ZYefOhCK1B7nlzaQTnatYCZ3f0sYaoaEwka9ZuFwd1F/q9CRBLoyyI6wzN7DHdGmqo06PLTrAE11LHY5HTQbMg/TKE41j9nVjNp/rZ4mMTvsYOvqg6sBCxkbgVhsfGIPn1sUR4sfSJ4cdxYEMV6FN2bbVQM/KtOLu3WFAC90Agm/633tBTK5W75UHrsdKXJu6+Ku0jQ4sOjZU1W0fTedeYqdvCuQzxGgFu1ZNrmXP",
+    "Cover": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAA2klEQVR4nOzRoWpCARhH8W1cBsuDhYU9w+JYW11YunUsTOH6HBYtCgr6AmYxCBYfwWbwFQxyLTYNPsM/HS+cX/5/4fAV5eP/XaL18xLtZ9Ux2n936mj/EK1vkAE0A2gG0AygGUAzgGYA7X4xeY0O3nr9aH/5eI/29eY32jf+AwbQDKAZQDOAZgDNAJoBtGL3WUUH++dVtN+W7Wg/evqK9o3/gAE0A2gG0AygGUAzgGYArRgOTtHBsnuO9vPpONof1n/RvvEfMIBmAM0AmgE0A2gG0AygXQMAAP//LCMZZrVbv2cAAAAASUVORK5CYII=",
     "Content": "some contentttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt two",
     "Author": "Tersina Aldric",
     "Genre": "detective"
@@ -50,7 +50,7 @@
   {
     "Id": "7",
     "Title": "some title three",
-    "Cover": "nWRVFyCKFOoaMHX9eqEndMia2Vjh08OUb1YXZt1SzKBOmQqSMQ+iLyyO3czC+GeXHSzh0jC+yJ==",
+    "Cover": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAA2klEQVR4nOzRoWpCARhH8W1cBsuDhYU9w+JYW11YunUsTOH6HBYtCgr6AmYxCBYfwWbwFQxyLTYNPsM/HS+cX/5/4fAV5eP/XaL18xLtZ9Ux2n936mj/EK1vkAE0A2gG0AygGUAzgGYA7X4xeY0O3nr9aH/5eI/29eY32jf+AwbQDKAZQDOAZgDNAJoBtGL3WUUH++dVtN+W7Wg/evqK9o3/gAE0A2gG0AygGUAzgGYArRgOTtHBsnuO9vPpONof1n/RvvEfMIBmAM0AmgE0A2gG0AygXQMAAP//LCMZZrVbv2cAAAAASUVORK5CYII=",
     "Content": "some contenttttttttttttttttttt two",
     "Author": "Rosene Dawkins",
     "Genre": "else"
@@ -58,7 +58,7 @@
   {
     "Id": "8",
     "Title": "some title one",
-    "Cover": "wYDN6LmskaMUPxdYm3z1skE4IJ7MP8CuieH3ZIRE2+qSo2RmomjwtDCvNtWarWHhXRW9CKLtNvx197OPOampgTjSElBoU1YiQ38dOHuUFdwMqa7X4meiBAz4uVuJgcd2T4QR+gTHzGsYp/GwcIHw4B9TAnFMgV9YflNaT1r9hBSkYDEGCxrQuEsJXAiUqiwvo48oi0SIsrwGQ00Adn5a6qj8kOu9i0BVYplkAfcheFHhP/U2ghfcMZ5ktZ5l5KjVnZDKnO+nm9lCp4WoYMHSFol1uWJJ",
+    "Cover": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAA2klEQVR4nOzRoWpCARhH8W1cBsuDhYU9w+JYW11YunUsTOH6HBYtCgr6AmYxCBYfwWbwFQxyLTYNPsM/HS+cX/5/4fAV5eP/XaL18xLtZ9Ux2n936mj/EK1vkAE0A2gG0AygGUAzgGYA7X4xeY0O3nr9aH/5eI/29eY32jf+AwbQDKAZQDOAZgDNAJoBtGL3WUUH++dVtN+W7Wg/evqK9o3/gAE0A2gG0AygGUAzgGYArRgOTtHBsnuO9vPpONof1n/RvvEfMIBmAM0AmgE0A2gG0AygXQMAAP//LCMZZrVbv2cAAAAASUVORK5CYII=",
     "Content": "some contentttttt two",
     "Author": "Emilia Jess",
     "Genre": "detective"
@@ -66,7 +66,7 @@
   {
     "Id": "9",
     "Title": "some title one",
-    "Cover": "S73JlG06f18IiCkQ1xmYL9ZVL1Hdys8GwfLHle2diL13hiI1Zys+1bZYMGVS0HrDeBvcIqv2QV/OSEiBU0jFxsxCDWVE/NryZu0dz3zKzcYLRcr4T5VYvpDvN6wb21NA44q/Gsj7/xHfL6Kgh7ZorGFWYhVB3ueXI6EunKJWj0POyXEqywfBFbuF/gaYbMdqPiM2WIkS1K0GiOwaYet31Hv9Cz2/hnGQ+UJVODMHoN6QYQdFQ4Qm/OdLOO2F89n9Akq6OFf5xEM6kFpUGdLPp6LmkUFeRz8jHdoAEmGLdlw7hHm0HtjVo7uamhhLhA5/wCJ7yB2jdb5rEUiBZ2vAXNwqnATb63zPrsVOfMXdqvP7GmzAEgf8rIdRRj8u",
+    "Cover": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAA2klEQVR4nOzRoWpCARhH8W1cBsuDhYU9w+JYW11YunUsTOH6HBYtCgr6AmYxCBYfwWbwFQxyLTYNPsM/HS+cX/5/4fAV5eP/XaL18xLtZ9Ux2n936mj/EK1vkAE0A2gG0AygGUAzgGYA7X4xeY0O3nr9aH/5eI/29eY32jf+AwbQDKAZQDOAZgDNAJoBtGL3WUUH++dVtN+W7Wg/evqK9o3/gAE0A2gG0AygGUAzgGYArRgOTtHBsnuO9vPpONof1n/RvvEfMIBmAM0AmgE0A2gG0AygXQMAAP//LCMZZrVbv2cAAAAASUVORK5CYII=",
     "Content": "some contenttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt two",
     "Author": "Bill Engdahl",
     "Genre": "else"
@@ -74,7 +74,7 @@
   {
     "Id": "10",
     "Title": "some title one",
-    "Cover": "3/xmB6Hlc0yBEYGWiH2nEMmzNs1z+gxztOuFmEAuYjG+X+t=",
+    "Cover": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAA2klEQVR4nOzRoWpCARhH8W1cBsuDhYU9w+JYW11YunUsTOH6HBYtCgr6AmYxCBYfwWbwFQxyLTYNPsM/HS+cX/5/4fAV5eP/XaL18xLtZ9Ux2n936mj/EK1vkAE0A2gG0AygGUAzgGYA7X4xeY0O3nr9aH/5eI/29eY32jf+AwbQDKAZQDOAZgDNAJoBtGL3WUUH++dVtN+W7Wg/evqK9o3/gAE0A2gG0AygGUAzgGYArRgOTtHBsnuO9vPpONof1n/RvvEfMIBmAM0AmgE0A2gG0AygXQMAAP//LCMZZrVbv2cAAAAASUVORK5CYII=",
     "Content": "some contentttttttttttt two",
     "Author": "Millie Atcliffe",
     "Genre": "else"
@@ -82,7 +82,7 @@
   {
     "Id": "11",
     "Title": "some title two",
-    "Cover": "ZuLD2tJaBIXVZ7d4XPuVie5bRhZYkAELwIjGG3Cd2SIldTeWFgXcSq5eho0wSibK2b/vrz5sC25UCRFibA0xBtkdrg3svSVZGUifTU9Ai22VfnBiR5KyHQmQU0BvwLM62p7Ki4DF3tcRHQa3jPfgo8rb6ap5jWmmsO+1hYhpHTVfv5PxcMXE4t8G4lJN2UDI3MX52eFdEJgE40Xwc2Ioj19AA3verT887AoC2ykSsql938gcOV+=",
+    "Cover": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAA2klEQVR4nOzRoWpCARhH8W1cBsuDhYU9w+JYW11YunUsTOH6HBYtCgr6AmYxCBYfwWbwFQxyLTYNPsM/HS+cX/5/4fAV5eP/XaL18xLtZ9Ux2n936mj/EK1vkAE0A2gG0AygGUAzgGYA7X4xeY0O3nr9aH/5eI/29eY32jf+AwbQDKAZQDOAZgDNAJoBtGL3WUUH++dVtN+W7Wg/evqK9o3/gAE0A2gG0AygGUAzgGYArRgOTtHBsnuO9vPpONof1n/RvvEfMIBmAM0AmgE0A2gG0AygXQMAAP//LCMZZrVbv2cAAAAASUVORK5CYII=",
     "Content": "some contenttttttttttttt two",
     "Author": "Keelia Vary",
     "Genre": "horror"
@@ -90,7 +90,7 @@
   {
     "Id": "12",
     "Title": "some title one",
-    "Cover": "b+4cYS2lN6c/9TLKMzzAMvC+tycVMB4s9xd2Znn4zmF4M/dleZb3pUSFvD/IcDIJlF+DcCAs19HLH4GopMoJVMPzsv3L0g4TA1iszqwzcb4eR41JpSXCAjnIeLHCJqIOnosjDcPjXtAA0fDlKsYAyp8L93NFT8mHEf2Q",
+    "Cover": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAA2klEQVR4nOzRoWpCARhH8W1cBsuDhYU9w+JYW11YunUsTOH6HBYtCgr6AmYxCBYfwWbwFQxyLTYNPsM/HS+cX/5/4fAV5eP/XaL18xLtZ9Ux2n936mj/EK1vkAE0A2gG0AygGUAzgGYA7X4xeY0O3nr9aH/5eI/29eY32jf+AwbQDKAZQDOAZgDNAJoBtGL3WUUH++dVtN+W7Wg/evqK9o3/gAE0A2gG0AygGUAzgGYArRgOTtHBsnuO9vPpONof1n/RvvEfMIBmAM0AmgE0A2gG0AygXQMAAP//LCMZZrVbv2cAAAAASUVORK5CYII=",
     "Content": "some contenttttt two",
     "Author": "Starla Ogren",
     "Genre": "horror"
@@ -98,7 +98,7 @@
   {
     "Id": "13",
     "Title": "some title one",
-    "Cover": "cZSpYBFbuhJyL3kose6b7Nj8qZ5/jLS0hRYi/a/+7djyDyua87nKetZgZYXjTWBfgIP1+gJ//bRqacs3bqlobjsRfJcEKkVrKbtPvRgt1UQAn6cWeTty",
+    "Cover": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAA2klEQVR4nOzRoWpCARhH8W1cBsuDhYU9w+JYW11YunUsTOH6HBYtCgr6AmYxCBYfwWbwFQxyLTYNPsM/HS+cX/5/4fAV5eP/XaL18xLtZ9Ux2n936mj/EK1vkAE0A2gG0AygGUAzgGYA7X4xeY0O3nr9aH/5eI/29eY32jf+AwbQDKAZQDOAZgDNAJoBtGL3WUUH++dVtN+W7Wg/evqK9o3/gAE0A2gG0AygGUAzgGYArRgOTtHBsnuO9vPpONof1n/RvvEfMIBmAM0AmgE0A2gG0AygXQMAAP//LCMZZrVbv2cAAAAASUVORK5CYII=",
     "Content": "some contentttt one",
     "Author": "Roberta Gherardo",
     "Genre": "else"
@@ -106,7 +106,7 @@
   {
     "Id": "14",
     "Title": "some title two",
-    "Cover": "4t6XRHF8inGdn8MupzRsTSzmZReRU3zizgAQJpAToaFxPLpNrzZRmVNAGLeME1P43txa/TJ3e+xwpbqFzaJS35HZmtAEAc+HruPC1zCci3kHFkI1INvFfzCatP+3rslWEQysBiZ7tCMm/UQK+yphhJxB",
+    "Cover": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAA2klEQVR4nOzRoWpCARhH8W1cBsuDhYU9w+JYW11YunUsTOH6HBYtCgr6AmYxCBYfwWbwFQxyLTYNPsM/HS+cX/5/4fAV5eP/XaL18xLtZ9Ux2n936mj/EK1vkAE0A2gG0AygGUAzgGYA7X4xeY0O3nr9aH/5eI/29eY32jf+AwbQDKAZQDOAZgDNAJoBtGL3WUUH++dVtN+W7Wg/evqK9o3/gAE0A2gG0AygGUAzgGYArRgOTtHBsnuO9vPpONof1n/RvvEfMIBmAM0AmgE0A2gG0AygXQMAAP//LCMZZrVbv2cAAAAASUVORK5CYII=",
     "Content": "some contentttttt one",
     "Author": "Merry Rosette",
     "Genre": "horror"
@@ -114,7 +114,7 @@
   {
     "Id": "15",
     "Title": "some title one",
-    "Cover": "BjWn6976Oc8+BEC+Qkos1oXTF5L6jyqwKzzWFVwDeBMhXK819a65Jwdq0RZa0Qh5KR2o91qm0RTNtct6OOPRq2l/ThbdyCeZ94YDMw+NrSMqkAMiEDfbMYH/A08KZsH5pWl0UU4VW16nrMUU1tngND4wMfqPhLs6riEZEk15ftDnwDbKCZDRLq8Hmhjq6o3xTXCwZYE7JKVB1RXx8ZkvNGQodR43IFp3nYTJ6w2eJ6/hwzQ8oBnkratUPWfHBAqqhLJo+3SbLY4vDAnqcxjSKmCGnffYhfkccB5hTLwQFOIhfBH41XX7ds4AGvs3hkf1iMprUcCGSP9nC5kSjjfHLQ5F9IawIDUZOlWeKP==",
+    "Cover": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAA2klEQVR4nOzRoWpCARhH8W1cBsuDhYU9w+JYW11YunUsTOH6HBYtCgr6AmYxCBYfwWbwFQxyLTYNPsM/HS+cX/5/4fAV5eP/XaL18xLtZ9Ux2n936mj/EK1vkAE0A2gG0AygGUAzgGYA7X4xeY0O3nr9aH/5eI/29eY32jf+AwbQDKAZQDOAZgDNAJoBtGL3WUUH++dVtN+W7Wg/evqK9o3/gAE0A2gG0AygGUAzgGYArRgOTtHBsnuO9vPpONof1n/RvvEfMIBmAM0AmgE0A2gG0AygXQMAAP//LCMZZrVbv2cAAAAASUVORK5CYII=",
     "Content": "some contentttttttttttttttttttttttttttttttttttttttttttttttttttttt one",
     "Author": "Netty Kylander",
     "Genre": "else"
